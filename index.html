@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami | OSIS SMAN 10 SINJAI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .font-serif-custom { font-family: 'Playfair Display', serif; }
+        
+        .circle-bg {
+            position: absolute;
+            border-radius: 50%;
+            background: radial-gradient(circle, #2563eb 0%, rgba(255,255,255,0) 70%);
+            z-index: -1;
+            opacity: 0.12;
+            filter: blur(60px);
+        }
+
+        .card-pengurus { 
+            background: #1e293b; 
+            border-radius: 2.5rem; 
+            padding: 3rem 2rem; 
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-pengurus:hover {
+            border-color: #3b82f6;
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px -10px rgba(0,0,0,0.5);
+        }
+
+        .frame-foto { 
+            background: #ffffff; 
+            border-radius: 2rem; 
+            padding: 12px; 
+            aspect-ratio: 1/1; 
+            width: 100%; 
+            max-width: 220px; 
+            margin: 0 auto 2rem auto; 
+            overflow: hidden; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .frame-foto img { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+            border-radius: 1.5rem; 
+        }
+        
+        .swiper-button-next:after, .swiper-button-prev:after { 
+            font-size: 18px !important; 
+            font-weight: 900; 
+            color: #ffffff; 
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-900 overflow-x-hidden">
+
+    <header class="flex justify-between items-center px-10 py-6 sticky top-0 bg-white/80 backdrop-blur-md z-50 border-b border-slate-50">
+        <div class="flex items-center gap-4">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Logo_OSIS.svg/1200px-Logo_OSIS.svg.png" alt="Logo" class="h-10 w-auto">
+            <div>
+                <h1 class="font-extrabold text-lg tracking-tighter text-blue-950 leading-none uppercase">OSIS 10</h1>
+                <p class="text-[9px] text-blue-600 uppercase tracking-[0.3em] font-bold">SMAN 10 Sinjai</p>
+            </div>
+        </div>
+        <nav class="hidden md:flex gap-10">
+            <a href="website osis.html" class="text-[11px] font-bold uppercase tracking-widest text-slate-400 hover:text-blue-600 transition">Beranda</a>
+            <a href="index.html" class="text-[11px] font-bold uppercase tracking-widest text-blue-600 border-b-2 border-blue-600 pb-1">Tentang</a>
+            <a href="artikel osis.html" class="text-[11px] font-bold uppercase tracking-widest text-slate-400 hover:text-blue-600 transition">Artikel</a>
+            <a href="aspirasi.html" class="text-[11px] font-bold uppercase tracking-widest text-slate-400 hover:text-blue-600 transition">Aspirasi</a>
+        </nav>
+    </header>
+
+    <main class="relative min-h-[70vh] flex items-center justify-center text-center px-6">
+        <div class="circle-bg w-[600px] h-[600px] -top-10 -left-20"></div>
+        <div class="max-w-4xl space-y-8 relative z-10">
+            <div class="inline-block px-5 py-2 bg-blue-50 text-blue-700 text-[10px] font-black rounded-full uppercase tracking-[0.3em] border border-blue-100">
+                Organization Profile
+            </div>
+            <h2 class="font-serif-custom text-7xl md:text-9xl text-blue-950 leading-[0.85] tracking-tighter">
+                Tentang <br> <span class="italic text-blue-600">Kami.</span>
+            </h2>
+            <p class="font-serif-custom text-xl md:text-2xl text-slate-600 max-w-2xl mx-auto leading-relaxed italic">
+                "Wadah kolaborasi siswa SMAN 10 Sinjai untuk menciptakan lingkungan sekolah yang inspiratif, religius, dan berprestasi."
+            </p>
+        </div>
+    </main>
+
+    <section class="py-32 border-t border-slate-50">
+        <div class="container mx-auto px-10">
+            <div class="grid md:grid-cols-2 gap-20 items-start max-w-6xl mx-auto">
+                <div class="space-y-8">
+                    <p class="text-blue-600 font-bold uppercase tracking-[0.4em] text-[10px]">The Vision</p>
+                    <h3 class="font-serif-custom text-7xl text-blue-950 italic">Visi</h3>
+                    <div class="w-20 h-1.5 bg-blue-600 rounded-full"></div>
+                    <p class="font-serif-custom text-3xl md:text-4xl text-slate-800 leading-tight italic">
+                        "Membangun SMA 10 Sinjai sebagai sekolah yang religius, bersatu dalam keberagaman, peduli lingkungan, dan memberikan ruang bagi siswa untuk berkembang."
+                    </p>
+                </div>
+                <div class="space-y-12">
+                    <p class="text-blue-600 font-bold uppercase tracking-[0.4em] text-[10px]">The Missions</p>
+                    <ul class="space-y-6">
+                        <li class="flex gap-6 p-4 hover:bg-slate-50 rounded-2xl transition"><span class="font-serif-custom text-2xl font-bold text-blue-600">01.</span> <p class="text-xs font-bold uppercase tracking-widest text-slate-500 pt-1.5">Meningkatkan Keimanan dan Ketakwaan kepada Tuhan YME.</p></li>
+                        <li class="flex gap-6 p-4 hover:bg-slate-50 rounded-2xl transition"><span class="font-serif-custom text-2xl font-bold text-blue-600">02.</span> <p class="text-xs font-bold uppercase tracking-widest text-slate-500 pt-1.5">Mewujudkan Kolaborasi Antar Organisasi melalui Kegiatan Bersama.</p></li>
+                        <li class="flex gap-6 p-4 hover:bg-slate-50 rounded-2xl transition"><span class="font-serif-custom text-2xl font-bold text-blue-600">03.</span> <p class="text-xs font-bold uppercase tracking-widest text-slate-500 pt-1.5">Mempererat Hubungan Siswa-siswi untuk Menciptakan Harmonisasi.</p></li>
+                        <li class="flex gap-6 p-4 hover:bg-slate-50 rounded-2xl transition"><span class="font-serif-custom text-2xl font-bold text-blue-600">04.</span> <p class="text-xs font-bold uppercase tracking-widest text-slate-500 pt-1.5">Menumbuhkan Kesadaran Siswa menjaga Kelestarian Lingkungan.</p></li>
+                        <li class="flex gap-6 p-4 hover:bg-slate-50 rounded-2xl transition"><span class="font-serif-custom text-2xl font-bold text-blue-600">05.</span> <p class="text-xs font-bold uppercase tracking-widest text-slate-500 pt-1.5">Memberikan Ruang Aspirasi melalui MPK dan Kotak Saran.</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-32 bg-[#0f172a] rounded-[3rem] md:rounded-[5rem] mx-4 mb-10 shadow-2xl overflow-hidden">
+        <div class="container mx-auto px-10">
+            <div class="text-center mb-20 space-y-4">
+                <p class="text-blue-400 font-bold uppercase tracking-[0.5em] text-[10px]">Executive Board</p>
+                <h2 class="font-serif-custom text-6xl text-white italic">Pengurus Inti</h2>
+            </div>
+
+            <div class="max-w-6xl mx-auto relative px-4 md:px-12">
+                <div class="swiper swiperPengurus">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card-pengurus text-center">
+                                <div class="frame-foto"><img src="ketua.png" alt="Ketua"></div>
+                                <h4 class="text-white font-bold uppercase tracking-widest text-base">Mifthahul Hidayat</h4>
+                                <p class="text-blue-400 font-black uppercase text-[10px] tracking-[0.3em] mt-3">Ketua OSIS</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-pengurus text-center">
+                                <div class="frame-foto"><img src="wakil ketua.png" alt="Wakil"></div>
+                                <h4 class="text-white font-bold uppercase tracking-widest text-base">Miftahul Jannah</h4>
+                                <p class="text-blue-400 font-black uppercase text-[10px] tracking-[0.3em] mt-3">Wakil Ketua</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-pengurus text-center">
+                                <div class="frame-foto"><img src="sekre ketua.png" alt="Sekretaris"></div>
+                                <h4 class="text-white font-bold uppercase tracking-widest text-base">Fitra</h4>
+                                <p class="text-blue-400 font-black uppercase text-[10px] tracking-[0.3em] mt-3">Sekretaris</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-pengurus text-center">
+                                <div class="frame-foto"><img src="wakilsekre.png" alt="Wakil Sekretaris"></div>
+                                <h4 class="text-white font-bold uppercase tracking-widest text-base">Ibnu Muzir</h4>
+                                <p class="text-blue-400 font-black uppercase text-[10px] tracking-[0.3em] mt-3">Wakil Sekretaris</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-pengurus text-center">
+                                <div class="frame-foto"><img src="benda.png" alt="Bendahara"></div>
+                                <h4 class="text-white font-bold uppercase tracking-widest text-base">Lisdayanti</h4>
+                                <p class="text-blue-400 font-black uppercase text-[10px] tracking-[0.3em] mt-3">Bendahara</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-pengurus text-center">
+                                <div class="frame-foto"><img src="wakilbenda.png" alt="Wakil Bendahara"></div>
+                                <h4 class="text-white font-bold uppercase tracking-widest text-base">Agung Rahmat</h4>
+                                <p class="text-blue-400 font-black uppercase text-[10px] tracking-[0.3em] mt-3">Wakil Bendahara</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next !-right-2 md:!-right-6"></div>
+                <div class="swiper-button-prev !-left-2 md:!-left-6"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white py-24">
+        <div class="container mx-auto px-10 text-center">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Logo_OSIS.svg/1200px-Logo_OSIS.svg.png" class="h-12 mx-auto mb-8 grayscale opacity-30">
+            <p class="text-slate-400 text-[10px] font-bold uppercase tracking-[0.5em]">Copyright © 2026 OSIS SMAN 10 SINJAI</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        new Swiper(".swiperPengurus", {
+            slidesPerView: 1,
+            spaceBetween: 25,
+            loop: true,
+            autoplay: { delay: 4000, disableOnInteraction: false },
+            navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+            breakpoints: {
+                640: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 }
+            }
+        });
+    </script>
+</body>
+</html>
