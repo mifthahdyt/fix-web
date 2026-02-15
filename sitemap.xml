@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://osissman10sinjai.netlify.app/indeks.html</loc>
+    <loc>https://osis10sinjai.vercel.app/index.html</loc>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://osissman10sinjai.netlify.app/KETUAOSISMIFTHA.html</loc>
+    <loc>https://osis10sinjai.vercel.app/KETUAOSISMIFTHA.html</loc>
     <priority>0.9</priority>
   </url>
 
-  <url><loc>https://osissman10sinjai.netlify.app/artikel%20dutling.html</loc><priority>0.8</priority></url>
-  <url><loc>https://osissman10sinjai.netlify.app/artikel%20osis.html</loc><priority>0.8</priority></url>
-  <url><loc>https://osissman10sinjai.netlify.app/artikel%20ul.html</loc><priority>0.8</priority></url>
-  <url><loc>https://osissman10sinjai.netlify.app/as%20aspirasi.html</loc><priority>0.8</priority></url>
-  <url><loc>https://osissman10sinjai.netlify.app/festival.html</loc><priority>0.8</priority></url>
-  <url><loc>https://osissman10sinjai.netlify.app/ketossulsel.html</loc><priority>0.8</priority></url>
-  <url><loc>https://osissman10sinjai.netlify.app/ldks.html</loc><priority>0.8</priority></url>
-  <url><loc>https://osissman10sinjai.netlify.app/lombafestival.html</loc><priority>0.8</priority></url>
-  <url><loc>https://osissman10sinjai.netlify.app/mkp.html</loc><priority>0.8</priority></url>
-  <url><loc>https://osissman10sinjai.netlify.app/mpls.html</loc><priority>0.8</priority></url>
-  <url><loc>https://osissman10sinjai.netlify.app/pelanantikan.html</loc><priority>0.8</priority></url>
-  <url><loc>https://osissman10sinjai.netlify.app/senam.html</loc><priority>0.8</priority></url>
-  <url><loc>https://osissman10sinjai.netlify.app/situs%20web%20osis.html</loc><priority>0.8</priority></url>
+  <url><loc>https://osis10sinjai.vercel.app/artikel%20dutling.html</loc><priority>0.8</priority></url>
+  <url><loc>https://osis10sinjai.vercel.app/artikel%20osis.html</loc><priority>0.8</priority></url>
+  <url><loc>https://osis10sinjai.vercel.app/artikel%20ul.html</loc><priority>0.8</priority></url>
+  <url><loc>https://osis10sinjai.vercel.app/as%20aspirasi.html</loc><priority>0.8</priority></url>
+  <url><loc>https://osis10sinjai.vercel.app/festival.html</loc><priority>0.8</priority></url>
+  <url><loc>https://osis10sinjai.vercel.app/ketossulsel.html</loc><priority>0.8</priority></url>
+  <url><loc>https://osis10sinjai.vercel.app/ldks.html</loc><priority>0.8</priority></url>
+  <url><loc>https://osis10sinjai.vercel.app/lombafestival.html</loc><priority>0.8</priority></url>
+  <url><loc>https://osis10sinjai.vercel.app/mkp.html</loc><priority>0.8</priority></url>
+  <url><loc>https://osis10sinjai.vercel.app/mpls.html</loc><priority>0.8</priority></url>
+  <url><loc>https://osis10sinjai.vercel.app/pelanantikan.html</loc><priority>0.8</priority></url>
+  <url><loc>https://osis10sinjai.vercel.app/senam.html</loc><priority>0.8</priority></url>
+  <url><loc>https://osis10sinjai.vercel.app/situs%20web%20osis.html</loc><priority>0.8</priority></url>
 </urlset>
